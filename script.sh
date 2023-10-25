@@ -1,7 +1,7 @@
 #!/bin/bash
 apt-get install -y
 cd /tmp
-git clone https://github.com/openfaas/faasd —depth=1 #install faasd
+git clone https://github.com/openfaas/faasd #install faasd
 cd faasd
 ./hack/install.sh
 curl -sSL https://cli.openfaas.com | sudo sh #intall faas-cli
